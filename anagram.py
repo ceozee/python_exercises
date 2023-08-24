@@ -8,8 +8,9 @@ def anagram_checker(first_word, second_word):
                 array_second_word.remove(array_first_word[0])
                 array_first_word.remove(array_first_word[0])
             count += 1
-            if array_first_word == [] and array_second_word == []:
-                print('It is an Anagram')
+
+        if array_first_word == [] and array_second_word == []:
+            print('It is an Anagram')
         else:
             print('Not an anagram')
     else:
